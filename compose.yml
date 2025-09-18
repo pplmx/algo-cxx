@@ -1,0 +1,11 @@
+service:
+    algo_cxx:
+        build: .
+        image: algo-cxx
+
+networks:
+    algo_cxx-net:
+        name: algo_cxx-net
+        ipam:
+            config:
+                -   subnet: 172.16.238.0/24
