@@ -1,5 +1,5 @@
 # BUILDING
-FROM rockylinux:9 AS builder
+FROM rockylinux:10 AS builder
 LABEL author="Mystic"
 WORKDIR /app
 
